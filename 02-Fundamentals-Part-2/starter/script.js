@@ -217,11 +217,82 @@
 //       console.log(mark);
 //     console.log(john);
     
-    for (let rep = 0;  rep <= 10; rep++) {
-      console.log(`Rachid is een G #${rep}`);
-    };
+//     for (let rep = 0;  rep <= 10; rep++) {
+//       console.log(`Rachid is een G #${rep}`);
+//     };
     
     
+//     const rachid = [
+// "Rachid",
+//  "Ouali",
+// 2037 - 1998,
+// 'docent',
+//  ["Moo", "Appie", "Salmane"],
+//  true,
+//  false
+//   ];
+
+//   const types = [];
+
+// for (let i = 0; i <= rachid.length -1; i++ ) {
+//   //reading the rachid array
+//   console.log(rachid[i], typeof rachid[i]);
+
+
+//   // filling the types array #1 option
+//   // types[i] = typeof rachid[i];
+
+//     // filling the types array #2 option
+
+// types.push(typeof rachid[i]);
+// };
+
+// console.log(types);
+
+
+
+
+
+// const years = [1998, 2007, 1996, 2020];
+// const ages = [];
+
+// for (let i = 0; i <= years.length -1; i++) {
+// ages.push(2025 - years[i]); 
+// };
+
+// console.log(ages);
+
+
+
+// // continue and break
+
+//     const rachid = [
+// "Rachid",
+//  "Ouali",
+// 2037 - 1998,
+// 'docent',
+//  ["Moo", "Appie", "Salmane"],
+//  true,
+//  false
+//   ];
+
+//   const types = [];
+
+// // for (let i = 0; i <= rachid.length -1; i++ ) { 
+// //   if (typeof rachid[i] !== 'string') continue //continue 
+// //   console.log(rachid[i], typeof rachid[i]);
+// // };
+
+
+
+// for (let i = 0; i <= rachid.length -1; i++ ) { 
+//   if (typeof rachid[i] !== 'string') break //break
+//   console.log(rachid[i], typeof rachid[i]);
+// };
+
+
+
+// looping backwards
     const rachid = [
 "Rachid",
  "Ouali",
@@ -232,20 +303,11 @@
  false
   ];
 
-  const types = [];
-
-for (let i = 0; i <= rachid.length -1; i++ ) {
-  //reading the rachid array
-  console.log(rachid[i], typeof rachid[i]);
+  for (let i = rachid.length -1; i >= 0; i--) {
+    console.log(rachid[i]);
+  };
 
 
-  // filling the types array #1 option
-  // types[i] = typeof rachid[i];
 
-    // filling the types array #2 option
-
-};
-
-console.log(types);
 
 
