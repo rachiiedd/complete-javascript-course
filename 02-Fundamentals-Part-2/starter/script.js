@@ -156,68 +156,96 @@
 //     console.log(sentence);
 
 
-const rachid = {
-    firstName: "Rachid",
-    lastName: "Ouali",
-    birthYear: 1998,
-    // age: 27,
-    friends: ["Moo", "Appie", "Salmane"],
-    hasDriverlicense: true, 
-    // calcAge: function () {
-    //     return 2025 - this.birthYear
-    // }
+// const rachid = {
+//     firstName: "Rachid",
+//     lastName: "Ouali",
+//     birthYear: 1998,
+//     // age: 27,
+//     friends: ["Moo", "Appie", "Salmane"],
+//     hasDriverlicense: true, 
+//     // calcAge: function () {
+//     //     return 2025 - this.birthYear
+//     // }
 
-    calcAge: function () {
-      this.age =  2025 - this.birthYear;
-      return this.age;
-    },
+//     calcAge: function () {
+//       this.age =  2025 - this.birthYear;
+//       return this.age;
+//     },
 
-    getSummary: function () {
-        return this.hasDriverlicense ?`Jonas is a ${this.calcAge()} old teacher, and he has a driver's license` : "no driver's license";
-    }
+//     getSummary: function () {
+//         return this.hasDriverlicense ?`Jonas is a ${this.calcAge()} old teacher, and he has a driver's license` : "no driver's license";
+//     }
+//     };
+
+// console.log(rachid.calcAge());
+//     console.log(rachid.age);
+
+//     console.log(rachid.getSummary());
+
+
+    
+// // challenge
+// /* Write your code below. Good luck! 🙂 */
+
+// /* Write your code below. Good luck! 🙂 */
+
+// /* Write your code below. Good luck! 🙂 */
+// const mark = {
+//     fullName: 'Mark Miller',
+//     mass: 78,
+//     height: 1.69,
+//     calcBMI: function () {
+//     this.bmi = this.mass / (this.height * this.height) 
+//       return this.bmi;
+//     }
+//     }
+    
+//     const john = {
+//     fullName: 'John Smith',
+//     mass: 92,
+//     height: 1.95,
+//     calcBMI: function () {
+//     this.bmi = this.mass / (this.height * this.height) 
+//       return this.bmi;
+//     }
+//     }
+
+
+//     console.log(mark.calcBMI());
+//     console.log(john.calcBMI());
+
+//       console.log(mark);
+//     console.log(john);
+    
+    for (let rep = 0;  rep <= 10; rep++) {
+      console.log(`Rachid is een G #${rep}`);
     };
-
-console.log(rachid.calcAge());
-    console.log(rachid.age);
-
-    console.log(rachid.getSummary());
-
-
-    
-// challenge
-/* Write your code below. Good luck! 🙂 */
-
-/* Write your code below. Good luck! 🙂 */
-
-/* Write your code below. Good luck! 🙂 */
-const mark = {
-    fullName: 'Mark Miller',
-    mass: 78,
-    height: 1.69,
-    calcBMI: function () {
-    this.bmi = this.mass / (this.height * this.height) 
-      return this.bmi;
-    }
-    }
-    
-    const john = {
-    fullName: 'John Smith',
-    mass: 92,
-    height: 1.95,
-    calcBMI: function () {
-    this.bmi = this.mass / (this.height * this.height) 
-      return this.bmi;
-    }
-    }
-
-
-    console.log(mark.calcBMI());
-    console.log(john.calcBMI());
-
-      console.log(mark);
-    console.log(john);
     
     
-    
-    
-    
+    const rachid = [
+"Rachid",
+ "Ouali",
+2037 - 1998,
+'docent',
+ ["Moo", "Appie", "Salmane"],
+ true,
+ false
+  ];
+
+  const types = [];
+
+for (let i = 0; i <= rachid.length -1; i++ ) {
+  //reading the rachid array
+  console.log(rachid[i], typeof rachid[i]);
+
+
+  // filling the types array #1 option
+  // types[i] = typeof rachid[i];
+
+    // filling the types array #2 option
+
+};
+
+console.log(types);
+
+
