@@ -292,22 +292,75 @@
 
 
 
-// looping backwards
-    const rachid = [
-"Rachid",
- "Ouali",
-2037 - 1998,
-'docent',
- ["Moo", "Appie", "Salmane"],
- true,
- false
-  ];
+// // looping backwards
+//     const rachid = [
+// "Rachid",
+//  "Ouali",
+// 2037 - 1998,
+// 'docent',
+//  ["Moo", "Appie", "Salmane"],
+//  true,
+//  false
+//   ];
 
-  for (let i = rachid.length -1; i >= 0; i--) {
-    console.log(rachid[i]);
-  };
+//   for (let i = rachid.length -1; i >= 0; i--) {
+//     console.log(rachid[i]);
+//   };
+
+  
+
+    // for (let excercise = 1;  excercise <= 5; excercise++) {
+    //   console.log(`Beginnen met oefening #${excercise}`);
+
+    //   for (let rep = 1; rep <=3; rep++) {
+    //     console.log(` Oefening ${''}Herhaling ${rep}`);
+    //   }
+    // };
 
 
 
 
 
+
+    // for (let rep = 1;  rep <= 10; rep++) {
+    //   console.log(`Lifting weight repitition #${rep}`) };
+
+
+
+//       let dice = Math.floor(Math.random() * 6) +1;
+      
+// while (dice !== 6) {
+// console.log(`You rolled a ${dice}`);
+// dice = Math.floor(Math.random() * 6) +1;
+
+// if (dice === 6) {
+//   console.log(`You threw a ${dice}, loop has ended`);
+// }
+//       }
+
+
+const calcTip = function (bill) {
+  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+}
+  
+      const bills = [
+        22,
+        295,
+        176,
+        440,
+        37,
+        105,
+        10,
+        1100,
+        86,
+        52
+        ];
+        
+        const tips = [];
+        const totals = [];
+        
+        for (let i = 0; i <= (bills.length +1); i++) {
+            tips[i] = calcTip(bills[i]);
+            totals[i] = bills[i] + tips[i];
+            console.log(bills, tips, totals);
+        }
