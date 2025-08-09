@@ -65,12 +65,79 @@ const inputClosePin = document.querySelector('.form__input--pin');
 /////////////////////////////////////////////////
 // LECTURES
 
+// const currencies = new Map([
+//   ['USD', 'United States dollar'],
+//   ['EUR', 'Euro'],
+//   ['GBP', 'Pound sterling'],
+// ]);
+
+// const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+
+/////////////////////////////////////////////////
+
+// // SLICE
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// console.log(arr.slice(0, 3));
+
+// console.log(arr.slice(2));
+// //SPLICE
+
+// // console.log(arr.splice(0, 3));
+
+// //REVERSE
+// const arr2 = ['j', 'i', 'h', 'g', 'j'];
+// console.log(arr2.reverse());
+
+// //CONCAT
+// const letters = arr.concat(arr2);
+// console.log(letters);
+
+// const letters2 = [...arr, ...arr2];
+// console.log(letters2);
+
+// // JOIN
+// console.log(arr2.join('-'));
+
+// const arr = [23, 11, 64];
+// console.log(arr[0]);
+// console.log(arr.at(0));
+
+// console.log(arr[arr.length - 1]); // 64
+// console.log(arr.splice(-1)[0]);
+// console.log(arr.at(-1));
+
+// console.log('rachid'.at(-1));
+
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+
+// for (const movement of movements) {
+//   if (movement > 0) {
+//     console.log(`you deposited ${movement}`);
+//   } else if (movement < 0) {
+//     console.log(`you withdrew ${Math.abs(movement)}`);
+//   }
+// }
+
+// movements.forEach(function (movement) {
+//   if (movement > 0) {
+//     console.log(`you deposited ${movement}`);
+//   } else if (movement < 0) {
+//     console.log(`you withdrew ${Math.abs(movement)}`);
+//   }
+// });
+
+// movements.forEach(function (movement, index, arr) {
+//   if (movement > 0) {
+//     console.log(`${index}: you deposited ${movement} this is array ${arr}`);
+//   } else if (movement < 0) {
+//     console.log(
+//       `${index}: you withdrew ${Math.abs(movement)} this is array ${arr}`
+//     );
+//   }
+// });
+
 const currencies = new Map([
   ['USD', 'United States dollar'],
   ['EUR', 'Euro'],
   ['GBP', 'Pound sterling'],
 ]);
-
-const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
-
-/////////////////////////////////////////////////
